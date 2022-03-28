@@ -1,0 +1,30 @@
+{
+    "employeeId":821,
+    "activityId":"82415",
+    "code":{
+
+    },
+    "report":[{
+        "Typescript":[{
+            "assignments":[{
+                "title":"Addition",
+                "analysis":{
+                    "info":"",
+                    "flowChart":""
+                },
+                "siteUrl":"",
+                "sourcePath":"https://github.com/rx-training/ajay-ojha-2022/tree/main/TypeScript/Day%201/Assignments/Addition"
+            }],
+            "practice":[],
+            "internalExam":[{
+                "multipleChoiceResult":10,
+                
+            }],
+            "externalExam":[]
+        }
+
+        ]
+    }
+        
+    ]
+}
