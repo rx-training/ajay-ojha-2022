@@ -18,9 +18,38 @@
             "practice":[],
             "internalExam":[{
                 "multipleChoiceResult":10,
+                "assignments":[{
+                    "title":"Addition",
+                    "analysis":{
+                        "info":"",
+                        "flowChart":""
+                    },
+                    "siteUrl":"",
+                    "sourcePath":"https://github.com/rx-training/ajay-ojha-2022/tree/main/TypeScript/Day%201/Assignments/Addition"
+                }],
+                "evaluation":"",
+                "remarks":""
+             
                 
             }],
-            "externalExam":[]
+            "externalExam":[
+                {
+                    "reviewBy":"PersonName",
+                    "reviewerDesignation":"",
+                    "assignments":[{
+                        "title":"Addition",
+                        "analysis":{
+                            "info":"",
+                            "flowChart":""
+                        },
+                        "siteUrl":"",
+                        "sourcePath":"https://github.com/rx-training/ajay-ojha-2022/tree/main/TypeScript/Day%201/Assignments/Addition"
+                    }],
+                    "evaluation":"",
+                    "remarks":""
+                    
+                }
+            ]
         }
 
         ]
