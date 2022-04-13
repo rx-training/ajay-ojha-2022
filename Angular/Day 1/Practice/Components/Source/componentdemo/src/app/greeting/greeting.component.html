@@ -1,0 +1,16 @@
+<p>greeting works!</p>
+<h1>{{message}}</h1>
+
+<input type="text"  value={{message}}> <!-- interpolation one way binding-->
+
+<input type="text" [value]='message'/> <!-- Property binding one way binding source to UI-->
+
+<input type="radio" name="gender" [checked]="status" /> 
+
+<input type="text" [(ngModel)]="message" /><!-- Forms module should be declared in app.module.ts file-->
+
+<button (click)="submitinfo()">Print variable value</button>
+
+
+
+

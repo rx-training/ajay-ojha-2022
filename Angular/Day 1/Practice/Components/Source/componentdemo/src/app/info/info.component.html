@@ -1,0 +1,37 @@
+<div *ngIf="Compare">
+    Welcome Everyone 
+    </div>
+
+    <!-- <div *ngFor="let item of list">
+        <p *ngIf="item>=45; else information" class="green" >{{item}}</p>
+       <ng-template #information><p class="red">{{item}}</p></ng-template>
+    </div> -->
+
+    <table>
+        <ng-container *ngFor="let item of list" >
+            <tr class="green"  *ngIf="displayGrade(item); else redtemplate">
+                <td>{{item.EmployeeID}}</td>
+                <td>{{item.Name}}</td>
+                <td>{{item.Standard}}</td>
+                <td>{{item.Grade}}</td>
+            </tr>
+            <ng-template #redtemplate >
+              <tr class="red" >
+                    <td>{{item.EmployeeID}}</td>
+                    <td>{{item.Name}}</td>
+                    <td>{{item.Standard}}</td>
+                    <td>{{item.Grade}}</td>
+                </tr>
+            </ng-template>
+        </ng-container>
+    
+   
+       
+      
+    </table>
+
+    <button (click)="toggle()">{{show ? 'hide' : 'show'}}</button>
+    show = {{show}}
+    <br>
+    <div *ngIf="show; else elseBlock">Text to show</div>
+    <ng-template #elseBlock>Alternate text while primary text is hidden</ng-template>

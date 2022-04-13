@@ -1,0 +1,16 @@
+#Projects h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#Projects h3 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#Projects ul,
+li {
+    font-size: 20px;
+    margin: 10px;
+}

@@ -1,21 +1,33 @@
 {
-    "employeeId":821,
+    "employeeCode":821,
     "activityId":"82415",
+    "gitRepo":"2391-Vidhi.C-Feb22",
     "code":{
-
+        "alert_status": "OK",
+        "bugs": "0",
+        "code_smells": "0",
+        "duplicated_lines_density": "OK"
     },
     "report":[{
         "Typescript":[{
             "assignments":[{
                 "title":"Addition",
                 "analysis":{
-                    "info":"",
-                    "flowChart":""
+                    "info":"info.md",
+                    "flowChart":".jpeg"
                 },
                 "siteUrl":"",
                 "sourcePath":"https://github.com/rx-training/ajay-ojha-2022/tree/main/TypeScript/Day%201/Assignments/Addition"
             }],
-            "practice":[],
+            "practice":[{
+                "title":"Addition",
+                "analysis":{
+                    "info":"info.md",
+                    "flowChart":".jpeg"
+                },
+                "siteUrl":"",
+                "sourcePath":"https://github.com/rx-training/ajay-ojha-2022/tree/main/TypeScript/Day%201/Assignments/Addition"
+            }],
             "internalExam":[{
                 "multipleChoiceResult":10,
                 "assignments":[{
@@ -27,7 +39,7 @@
                     "siteUrl":"",
                     "sourcePath":"https://github.com/rx-training/ajay-ojha-2022/tree/main/TypeScript/Day%201/Assignments/Addition"
                 }],
-                "evaluation":"",
+                "Grade":"",
                 "remarks":""
              
                 
@@ -53,6 +65,7 @@
         }
 
         ]
+    
     }
         
     ]
