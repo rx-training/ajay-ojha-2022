@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-greeting',
@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./greeting.component.css']
 })
 export class GreetingComponent implements OnInit {
-message="Greeting of the Day!!!"
-
+ message="Greeting of the Day!!!"
+  @Output() getValue= new EventEmitter<any>();
+ tasklist:Array<string>=[];
 
 status:boolean=false;
   constructor() { }
@@ -18,7 +19,9 @@ status:boolean=false;
 
   submitinfo()
   {
-    console.log(this.message)
+    this.tasklist.push(this.message);
+    this.getValue.emit(this.tasklist);
+    //console.log(this.message)
   }
 
 }

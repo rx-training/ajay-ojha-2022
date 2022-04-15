@@ -1,22 +1,29 @@
 <template>
   <div>
-    <GreetingInfo></GreetingInfo>
+  <h1>Greeting of the Day !!! Mr. /Ms{{name}}</h1>
+   <HelloWorld @notifyinfo="display($event)" ></HelloWorld>
   </div>
 </template>
 <script>
-import GreetingInfo from "./components/GreetingInfo.vue";
+
+import HelloWorld from "./components/HelloWorld.vue";
 export default {
   name: "App",
   data() {
     return {
-      location: "Ahmedabad",
-      num1: 34,
-      num2: 45,
+    name: ""
     };
   },
   components: {
-    GreetingInfo,
+
+    HelloWorld
   },
+  methods:{
+    display(message)
+    {
+      this.name=message;
+    }
+  }
 };
 </script>
 

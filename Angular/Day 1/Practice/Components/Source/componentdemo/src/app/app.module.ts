@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { GreetingComponent } from './greeting/greeting.component';
 import { FormsModule } from '@angular/forms';
 import { InfoComponent } from './info/info.component';
+import { DemoComponent } from './demo/demo.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { InfoComponent } from './info/info.component';
     SidebarComponent,
     GreetingComponent,
     InfoComponent,
+    DemoComponent,
    
   ],
   imports: [

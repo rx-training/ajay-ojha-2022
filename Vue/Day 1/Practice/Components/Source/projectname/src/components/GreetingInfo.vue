@@ -1,5 +1,8 @@
 <template lang="">
   <div>
+    <p>{{datainfo}}</p>
+    <h1>{{namekey}}/</h1>
+
     <h1>{{ message }}</h1>
     <p>Hello {{ message }}</p>
     <p>{{ new Date().toString() }}</p>
@@ -14,23 +17,23 @@
     </ul>
 
     <table>
-    <template v-for="item in numbers" :key="item.Name" >
-      <tr v-if="Display(item)" class="green">
-       <td>{{item.Name}}</td>
-            <td>{{item.Value}}</td>
-      </tr>
-      <tr   v-else class="red">
-        <td>{{item.Name}}</td>
-            <td>{{item.Value}}</td>
-      </tr>
-    </template>
-      
+      <template v-for="item in numbers" :key="item.Name">
+        <tr v-if="Display(item)" class="green">
+          <td>{{ item.Name }}</td>
+          <td>{{ item.Value }}</td>
+        </tr>
+        <tr v-else class="red">
+          <td>{{ item.Name }}</td>
+          <td>{{ item.Value }}</td>
+        </tr>
+      </template>
     </table>
   </div>
 </template>
 <script>
 export default {
   name: "GreetingInfo",
+  props:{datainfo:String,namekey:String},
   data() {
     return {
       message: "Greeting of the Day!!",
@@ -64,12 +67,10 @@ export default {
 };
 </script>
 <style scoped>
-.green
-{
-  background-color:green;
+.green {
+  background-color: green;
 }
-.red
-{
-  background-color:red;
+.red {
+  background-color: red;
 }
 </style>

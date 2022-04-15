@@ -1,3 +1,14 @@
-<div>
-    <app-info></app-info>
-</div>
+<!-- <div>
+  <input type="text" [(ngModel)]="emp.Name"/> 
+  <input type="text" [(ngModel)]="emp.Address"/>
+  <input type="text" [(ngModel)]="pannumber"/>
+  <app-demo [userData]="emp" [nameKey]="pannumber"></app-demo>
+</div> -->
+
+<label>{{count}}</label>
+<ul>
+  <li *ngFor="let item of data">
+    {{item}}
+  </li>
+</ul>
+<app-greeting (getValue)="display($event)" ></app-greeting>

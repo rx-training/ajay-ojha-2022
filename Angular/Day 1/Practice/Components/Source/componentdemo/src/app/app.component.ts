@@ -7,8 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'componentdemo';
-  name = "learning";
+count:number=0;
+data:Array<any>=[];
 
+display(arr:Array<string>)
+{
+this.count=arr.length;
+this.data=arr;
 
+}
 
 }
