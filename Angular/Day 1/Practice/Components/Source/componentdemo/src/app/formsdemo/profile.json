@@ -1,0 +1,25 @@
+{
+    "Name": "varsha",
+    "Address": {
+        "FlatNumber": 101,
+        "Area": "gota",
+        "City": "ahmedabac",
+        "State": "gujrat"
+    },
+    "Hobbies":["cricket","Badminton","Chess"]
+}
+
+
+{
+    "Name": "sneha",
+    "Address": {
+        "FlatNumber": 101,
+        "Area": "gota",
+        "City": "ahmedabad",
+        "State": "gujarat"
+    },
+    "Hobbies": [
+        "badminton",
+        "hockey"
+    ]
+}
