@@ -2,11 +2,14 @@
   <div>
   <h1>Greeting of the Day !!! Mr. /Ms{{name}}</h1>
    <HelloWorld @notifyinfo="display($event)" ></HelloWorld>
+
+   <DemoBinding></DemoBinding>
   </div>
 </template>
 <script>
 
 import HelloWorld from "./components/HelloWorld.vue";
+import DemoBinding from "./components/DemoBinding.vue";
 export default {
   name: "App",
   data() {
@@ -16,7 +19,7 @@ export default {
   },
   components: {
 
-    HelloWorld
+    HelloWorld,DemoBinding
   },
   methods:{
     display(message)
