@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vuelidate/core": "^2.0.0-alpha.40",
+    "@vuelidate/validators": "^2.0.0-alpha.28",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
@@ -30,7 +32,6 @@
     },
     "extends": [
       "plugin:vue/vue3-essential"
-      
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser"

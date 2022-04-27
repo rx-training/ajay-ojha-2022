@@ -10,6 +10,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { InfoComponent } from './info/info.component';
 import { DemoComponent } from './demo/demo.component';
 import { FormsdemoComponent } from './formsdemo/formsdemo.component';
+import { HtmlComponent } from './html/html.component';
+import { CssComponent } from './css/css.component';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
+import { HtmlformComponent } from './htmlform/htmlform.component';
+import { RhtmlresumeComponent } from './rhtmlresume/rhtmlresume.component';
 
 
 @NgModule({
@@ -20,6 +25,11 @@ import { FormsdemoComponent } from './formsdemo/formsdemo.component';
     InfoComponent,
     DemoComponent,
     FormsdemoComponent,
+    HtmlComponent,
+    CssComponent,
+    BootstrapComponent,
+    HtmlformComponent,
+    RhtmlresumeComponent,
    
   ],
   imports: [

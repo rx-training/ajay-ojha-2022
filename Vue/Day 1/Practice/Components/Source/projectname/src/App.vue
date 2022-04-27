@@ -1,30 +1,29 @@
 <template>
   <div>
-  <h1>Greeting of the Day !!! Mr. /Ms{{name}}</h1>
-   <HelloWorld @notifyinfo="display($event)" ></HelloWorld>
-
-   <DemoBinding></DemoBinding>
+  <input type="text" v-model= "v$.name.$model">
+      <div v-if="v$.name.$error">Name field has an error.</div>
+ 
   </div>
 </template>
-<script>
 
-import HelloWorld from "./components/HelloWorld.vue";
-import DemoBinding from "./components/DemoBinding.vue";
+<script>
+import useVuelidate from '@vuelidate/core'
+import { required } from '@vuelidate/validators'
+
 export default {
   name: "App",
-  data() {
+   setup: () => ({ v$: useVuelidate() }),
+  data: () => ({ name: '' }),
+  validations () {
     return {
-    name: ""
-    };
+      name: { required }
+    }
   },
-  components: {
-
-    HelloWorld,DemoBinding
-  },
-  methods:{
-    display(message)
-    {
-      this.name=message;
+  methods: {
+    setName ($event) {
+      // do some silly transformation
+      this.name = $event.target.value.toUpperCase()
+     // this.v$.name.$touch()
     }
   }
 };
