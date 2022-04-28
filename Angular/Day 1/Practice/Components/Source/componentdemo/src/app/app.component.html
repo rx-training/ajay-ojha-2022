@@ -1,7 +1,13 @@
 <div>
-  <a [routerLink]="['/html']" >HTML</a>
+  <!-- <a [routerLink]="['/html']" >HTML</a>
   <a [routerLink]="['/css']" >CSS</a>
-  <a [routerLink]="['/bootstrap']" >BOOTSTRAP</a>
+  <a [routerLink]="['/bootstrap']" >BOOTSTRAP</a> -->
+<ul>
+  <li *ngFor="let item of categories">
+    <a [routerLink]="['/products',item.CategoryID]" >{{item.CategoryName}}</a>
+  </li>
+</ul>
+
 </div>
 <div>
   <router-outlet></router-outlet>

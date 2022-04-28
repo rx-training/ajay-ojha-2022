@@ -1,0 +1,43 @@
+{
+
+    "Skills":[
+
+        {
+
+            "SkillName":"Angular_React_Vue",
+
+            "Days":[
+
+                {"Day1":{"Practice":3,"Assignment":0}},
+
+                {"Day2":{"Practice":3,"Assignment":3}},
+                
+                {"Day3":{"Practice":3,"Assignment":3}},
+
+                {"Day4":{"Practice":4,"Assignment":2}},
+                
+                {"Day5":{"Practice":1,"Assignment":1}},
+
+                {"Day6":{"Practice":3,"Assignment":3}},
+                
+                {"Day7":{"Practice":3,"Assignment":3}},
+
+                {"Day8":{"Practice":2,"Assignment":1}},
+                
+                {"Day9":{"Practice":2,"Assignment":1}},
+
+                {"Day10":{"Practice":3,"Assignment":1}},
+                
+                {"Day11":{"Practice":2,"Assignment":1}}
+
+              
+
+            ]
+
+        }
+
+           
+
+    ]
+
+}

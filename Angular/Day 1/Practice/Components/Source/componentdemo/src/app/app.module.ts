@@ -15,6 +15,7 @@ import { CssComponent } from './css/css.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { HtmlformComponent } from './htmlform/htmlform.component';
 import { RhtmlresumeComponent } from './rhtmlresume/rhtmlresume.component';
+import { ProductsComponent } from './products/products.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { RhtmlresumeComponent } from './rhtmlresume/rhtmlresume.component';
     BootstrapComponent,
     HtmlformComponent,
     RhtmlresumeComponent,
+    ProductsComponent,
    
   ],
   imports: [

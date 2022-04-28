@@ -10,6 +10,8 @@ export class AppComponent {
 count:number=0;
 data:Array<any>=[];
 
+categories:Array<any>=[{"CategoryID":1,"CategoryName":"Entertainment"},{"CategoryID":"2","CategoryName":"Food"}]
+
 display(arr:Array<string>)
 {
 this.count=arr.length;
