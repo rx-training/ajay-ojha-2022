@@ -36,6 +36,7 @@ export class AppComponent implements OnInit {
     this.userservice.postUser(this.user).subscribe((arg: User) => {
 
       this.user = arg
+      this.ngOnInit();
       console.log(this.user);
 
     });

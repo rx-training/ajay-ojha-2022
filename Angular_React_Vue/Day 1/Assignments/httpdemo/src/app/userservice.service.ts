@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient,HttpHeaders } from '@angular/common/http';
 import { User } from './Models/Users';
-
+import { Observable, throwError } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
@@ -12,7 +12,7 @@ export class UserserviceService {
   constructor(private http:HttpClient) { 
 
   }
-  getUsers()
+  getUsers():Observable<Array<User>> 
   {
     const httpOptions = {
       headers: new HttpHeaders({
@@ -34,10 +34,10 @@ export class UserserviceService {
 
       })
     }
-   return this.http.post<User>(`${this.hosturl}users/1`,user,httpOptions)
+   return this.http.post<User>(`${this.hosturl}users`,user,httpOptions)
 
   }
-  putUser(user:User,id:number)
+  putUser(user:User,id:number):Observable<User> 
   {
     const httpOptions = {
       headers: new HttpHeaders({
