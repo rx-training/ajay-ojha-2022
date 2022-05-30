@@ -1,5 +1,5 @@
-// require('dotenv').config();
-// var http=require("http");
+require('dotenv').config();
+var http=require("http");
 // console.log("WElcome everyone");
 
 // console.log("Hello world");
@@ -31,19 +31,34 @@
 // })
 
 
-// http.createServer((req,res)=>{
-// if(req.url="/")
-// {
-//     fs.readFile("./info.json",(err,data)=>{
-//             console.log(JSON.parse( data));
-//     })
-// }
-// res.end();
+// import
+const {emitter} = require('./hello');
+const fs = require('fs');
 
-// }).listen(process.env.port,()=>{
-//     console.log(`Server started at ${process.env.port}`)
-// });
+http.createServer((req,res)=>{
+if(req.url="/")
+{
+    setTimeout(() => {
+        fs.readFile("./info.json",(err,data)=>{
+            emitter.emit('fileIsReady', data);
+            console.log(JSON.parse( data));
+    })
+    }, 5000);
 
-const os = require('node:os');
-console.log(os.homedir());
+}
+res.end();
 
+}).listen(process.env.port,()=>{
+    console.log(`Server started at ${process.env.port}`)
+});
+
+// const os = require('node:os');
+// console.log(os.homedir());
+
+
+// var test=require("./test");
+
+// var obj=new test.calc();
+// console.log(obj.add(45,56))
+// var obj1=new test.rectangle();
+// console.log( obj1.area(45,45));
