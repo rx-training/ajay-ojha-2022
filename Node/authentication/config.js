@@ -1,0 +1,1 @@
+module.exports={key:"authenticationkey",algorithm:"HS256",expiresin:"1m"}
