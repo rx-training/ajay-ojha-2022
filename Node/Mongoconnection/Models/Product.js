@@ -8,7 +8,8 @@ const productSchema = new mongoose.Schema({
         ref: "category",
         required: true,
         trim: true,
-      }
+      },
+      Feedback:[{Rating:Number,givenBy:String,Date:Date}]
   });
 
   

@@ -1,0 +1,134 @@
+[
+    {
+      "EmpCode": "2109",
+      "EmployeeName": "Nisarg  Kalpesh Kumar Soni",
+      "JoinDate": "2021-01-04T00:00:00",
+      "LeaveDays": 11.50,
+      "PresentDays": 140.50,
+      "TotalWorkingDays": 152.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":56806,\"FromDate\":\"2021-01-05\",\"ToDate\":\"2021-01-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56807,\"FromDate\":\"2021-01-08\",\"ToDate\":\"2021-01-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56808,\"FromDate\":\"2021-01-12\",\"ToDate\":\"2021-01-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56887,\"FromDate\":\"2021-01-15\",\"ToDate\":\"2021-01-15\",\"LeaveType\":\"LWP\",\"Days\":2.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56708,\"FromDate\":\"2021-01-18\",\"ToDate\":\"2021-01-18\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57411,\"FromDate\":\"2021-02-12\",\"ToDate\":\"2021-02-12\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57485,\"FromDate\":\"2021-02-15\",\"ToDate\":\"2021-02-15\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57657,\"FromDate\":\"2021-02-22\",\"ToDate\":\"2021-02-22\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57736,\"FromDate\":\"2021-02-24\",\"ToDate\":\"2021-02-26\",\"LeaveType\":\"Sick Leave (SL)\",\"Days\":3.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":58158,\"FromDate\":\"2021-03-01\",\"ToDate\":\"2021-03-01\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58159,\"FromDate\":\"2021-03-08\",\"ToDate\":\"2021-03-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58197,\"FromDate\":\"2021-03-19\",\"ToDate\":\"2021-03-19\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58978,\"FromDate\":\"2021-04-08\",\"ToDate\":\"2021-04-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58638,\"FromDate\":\"2021-04-09\",\"ToDate\":\"2021-04-09\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58764,\"FromDate\":\"2021-04-20\",\"ToDate\":\"2021-04-20\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Applied\"}]",
+      "TotalDeskTime": "670:01",
+      "TotalProductiveTime": "397:45"
+    },
+    {
+      "EmpCode": "2105",
+      "EmployeeName": "Mitul  Kalpesh Kumar Soni",
+      "JoinDate": "2021-01-04T00:00:00",
+      "LeaveDays": 1.50,
+      "PresentDays": 220.50,
+      "TotalWorkingDays": 222.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":56796,\"FromDate\":\"2021-01-05\",\"ToDate\":\"2021-01-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56797,\"FromDate\":\"2021-01-06\",\"ToDate\":\"2021-01-06\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56798,\"FromDate\":\"2021-01-11\",\"ToDate\":\"2021-01-11\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56795,\"FromDate\":\"2021-01-12\",\"ToDate\":\"2021-01-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"}]",
+      "TotalDeskTime": "805:56",
+      "TotalProductiveTime": "653:23"
+    },
+    {
+      "EmpCode": "2104",
+      "EmployeeName": "Milit  Dixitbhai Panchasara",
+      "JoinDate": "2021-01-04T00:00:00",
+      "LeaveDays": 12.50,
+      "PresentDays": 209.50,
+      "TotalWorkingDays": 222.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":56791,\"FromDate\":\"2021-01-05\",\"ToDate\":\"2021-01-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56792,\"FromDate\":\"2021-01-06\",\"ToDate\":\"2021-01-06\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56793,\"FromDate\":\"2021-01-11\",\"ToDate\":\"2021-01-11\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56794,\"FromDate\":\"2021-01-12\",\"ToDate\":\"2021-01-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57520,\"FromDate\":\"2021-02-01\",\"ToDate\":\"2021-02-01\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57379,\"FromDate\":\"2021-02-15\",\"ToDate\":\"2021-02-16\",\"LeaveType\":\"LWP\",\"Days\":2.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":57640,\"FromDate\":\"2021-02-19\",\"ToDate\":\"2021-02-19\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57889,\"FromDate\":\"2021-03-05\",\"ToDate\":\"2021-03-05\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58972,\"FromDate\":\"2021-04-07\",\"ToDate\":\"2021-04-07\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58973,\"FromDate\":\"2021-04-12\",\"ToDate\":\"2021-04-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58974,\"FromDate\":\"2021-04-15\",\"ToDate\":\"2021-04-15\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "605:37",
+      "TotalProductiveTime": "519:07"
+    },
+    {
+      "EmpCode": "2101",
+      "EmployeeName": "Jevik  Pravinbhai Raiyani",
+      "JoinDate": "2021-01-04T00:00:00",
+      "LeaveDays": 26.00,
+      "PresentDays": 201.00,
+      "TotalWorkingDays": 227.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":56784,\"FromDate\":\"2021-01-05\",\"ToDate\":\"2021-01-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56785,\"FromDate\":\"2021-01-06\",\"ToDate\":\"2021-01-06\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56786,\"FromDate\":\"2021-01-08\",\"ToDate\":\"2021-01-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56787,\"FromDate\":\"2021-01-12\",\"ToDate\":\"2021-01-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":57092,\"FromDate\":\"2021-01-18\",\"ToDate\":\"2021-02-03\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":13.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":57040,\"FromDate\":\"2021-01-22\",\"ToDate\":\"2021-01-22\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57511,\"FromDate\":\"2021-02-05\",\"ToDate\":\"2021-02-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57512,\"FromDate\":\"2021-02-11\",\"ToDate\":\"2021-02-12\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":1.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57513,\"FromDate\":\"2021-02-15\",\"ToDate\":\"2021-02-15\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "707:25",
+      "TotalProductiveTime": "452:04"
+    },
+    {
+      "EmpCode": "2144",
+      "EmployeeName": "Jinal  Kirankumar Shah",
+      "JoinDate": "2021-02-01T00:00:00",
+      "LeaveDays": 2.00,
+      "PresentDays": 203.00,
+      "TotalWorkingDays": 205.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":58180,\"FromDate\":\"2021-03-05\",\"ToDate\":\"2021-03-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58181,\"FromDate\":\"2021-03-09\",\"ToDate\":\"2021-03-09\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58364,\"FromDate\":\"2021-03-26\",\"ToDate\":\"2021-03-26\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58930,\"FromDate\":\"2021-04-23\",\"ToDate\":\"2021-04-23\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "586:25",
+      "TotalProductiveTime": "412:29"
+    },
+    {
+      "EmpCode": "2145",
+      "EmployeeName": "Kartik  Bhalchandra Raval",
+      "JoinDate": "2021-02-01T00:00:00",
+      "LeaveDays": 35.50,
+      "PresentDays": 171.50,
+      "TotalWorkingDays": 207.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":57240,\"FromDate\":\"2021-02-04\",\"ToDate\":\"2021-02-04\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58038,\"FromDate\":\"2021-03-12\",\"ToDate\":\"2021-03-12\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58366,\"FromDate\":\"2021-03-26\",\"ToDate\":\"2021-03-26\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59010,\"FromDate\":\"2021-04-02\",\"ToDate\":\"2021-04-02\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58702,\"FromDate\":\"2021-04-05\",\"ToDate\":\"2021-04-14\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":8.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":58632,\"FromDate\":\"2021-04-09\",\"ToDate\":\"2021-04-09\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":59011,\"FromDate\":\"2021-04-16\",\"ToDate\":\"2021-04-16\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58933,\"FromDate\":\"2021-04-23\",\"ToDate\":\"2021-04-23\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59153,\"FromDate\":\"2021-04-30\",\"ToDate\":\"2021-04-30\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "501:34",
+      "TotalProductiveTime": "328:54"
+    },
+    {
+      "EmpCode": "2146",
+      "EmployeeName": "Nirbhay  Mahesh Dubey",
+      "JoinDate": "2021-02-01T00:00:00",
+      "LeaveDays": 3.50,
+      "PresentDays": 201.50,
+      "TotalWorkingDays": 205.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":59012,\"FromDate\":\"2021-04-02\",\"ToDate\":\"2021-04-02\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59013,\"FromDate\":\"2021-04-06\",\"ToDate\":\"2021-04-06\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59014,\"FromDate\":\"2021-04-08\",\"ToDate\":\"2021-04-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58634,\"FromDate\":\"2021-04-09\",\"ToDate\":\"2021-04-09\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58746,\"FromDate\":\"2021-04-16\",\"ToDate\":\"2021-04-16\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "617:49",
+      "TotalProductiveTime": "474:54"
+    },
+    {
+      "EmpCode": "2118",
+      "EmployeeName": "Sachin  Satyanarayan Sharma",
+      "JoinDate": "2021-01-04T00:00:00",
+      "LeaveDays": 6.00,
+      "PresentDays": 216.00,
+      "TotalWorkingDays": 222.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":56820,\"FromDate\":\"2021-01-05\",\"ToDate\":\"2021-01-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56821,\"FromDate\":\"2021-01-08\",\"ToDate\":\"2021-01-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56822,\"FromDate\":\"2021-01-12\",\"ToDate\":\"2021-01-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"}]",
+      "TotalDeskTime": "842:38",
+      "TotalProductiveTime": "706:27"
+    },
+    {
+      "EmpCode": "2112",
+      "EmployeeName": "Parth  Hasmukhbhai Parekh",
+      "JoinDate": "2021-01-04T00:00:00",
+      "LeaveDays": 18.00,
+      "PresentDays": 207.00,
+      "TotalWorkingDays": 225.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":56811,\"FromDate\":\"2021-01-05\",\"ToDate\":\"2021-01-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56928,\"FromDate\":\"2021-01-06\",\"ToDate\":\"2021-01-06\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56812,\"FromDate\":\"2021-01-08\",\"ToDate\":\"2021-01-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56813,\"FromDate\":\"2021-01-11\",\"ToDate\":\"2021-01-11\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56814,\"FromDate\":\"2021-01-11\",\"ToDate\":\"2021-01-11\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":56929,\"FromDate\":\"2021-01-12\",\"ToDate\":\"2021-01-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57547,\"FromDate\":\"2021-01-18\",\"ToDate\":\"2021-01-29\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":10.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":57548,\"FromDate\":\"2021-01-18\",\"ToDate\":\"2021-01-29\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":10.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":56707,\"FromDate\":\"2021-01-18\",\"ToDate\":\"2021-02-03\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":13.00,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":57549,\"FromDate\":\"2021-02-01\",\"ToDate\":\"2021-02-01\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57550,\"FromDate\":\"2021-02-02\",\"ToDate\":\"2021-02-02\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57551,\"FromDate\":\"2021-02-03\",\"ToDate\":\"2021-02-03\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58361,\"FromDate\":\"2021-03-26\",\"ToDate\":\"2021-03-26\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58987,\"FromDate\":\"2021-04-12\",\"ToDate\":\"2021-04-12\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "773:31",
+      "TotalProductiveTime": "591:52"
+    },
+    {
+      "EmpCode": "2153",
+      "EmployeeName": "Zeel  Digan Mehta",
+      "JoinDate": "2021-02-01T00:00:00",
+      "LeaveDays": 9.50,
+      "PresentDays": 195.50,
+      "TotalWorkingDays": 205.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":57195,\"FromDate\":\"2021-02-01\",\"ToDate\":\"2021-02-01\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Cancelled\"},{\"LeaveRequestID\":57546,\"FromDate\":\"2021-02-15\",\"ToDate\":\"2021-02-15\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58183,\"FromDate\":\"2021-03-03\",\"ToDate\":\"2021-03-03\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57956,\"FromDate\":\"2021-03-08\",\"ToDate\":\"2021-03-08\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58184,\"FromDate\":\"2021-03-10\",\"ToDate\":\"2021-03-11\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59026,\"FromDate\":\"2021-04-01\",\"ToDate\":\"2021-04-01\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59027,\"FromDate\":\"2021-04-02\",\"ToDate\":\"2021-04-02\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59028,\"FromDate\":\"2021-04-06\",\"ToDate\":\"2021-04-06\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59029,\"FromDate\":\"2021-04-07\",\"ToDate\":\"2021-04-07\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59030,\"FromDate\":\"2021-04-09\",\"ToDate\":\"2021-04-09\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59031,\"FromDate\":\"2021-04-12\",\"ToDate\":\"2021-04-13\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":1.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59032,\"FromDate\":\"2021-04-14\",\"ToDate\":\"2021-04-14\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59033,\"FromDate\":\"2021-04-16\",\"ToDate\":\"2021-04-16\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59335,\"FromDate\":\"2021-09-27\",\"ToDate\":\"2021-09-27\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59487,\"FromDate\":\"2021-09-27\",\"ToDate\":\"2021-09-27\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59491,\"FromDate\":\"2021-09-27\",\"ToDate\":\"2021-09-27\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59495,\"FromDate\":\"2021-09-27\",\"ToDate\":\"2021-09-27\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59499,\"FromDate\":\"2021-09-27\",\"ToDate\":\"2021-09-27\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":59548,\"FromDate\":\"2021-10-11\",\"ToDate\":\"2021-10-11\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "544:48",
+      "TotalProductiveTime": "346:04"
+    },
+    {
+      "EmpCode": "2088",
+      "EmployeeName": "Ankit  Somaram Kumavat",
+      "JoinDate": "2021-01-04T00:00:00",
+      "LeaveDays": 44.50,
+      "PresentDays": 178.50,
+      "TotalWorkingDays": 223.00,
+      "LeaveDetails": "[{\"LeaveRequestID\":56842,\"FromDate\":\"2021-01-05\",\"ToDate\":\"2021-01-05\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56840,\"FromDate\":\"2021-01-06\",\"ToDate\":\"2021-01-06\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56843,\"FromDate\":\"2021-01-07\",\"ToDate\":\"2021-01-07\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56841,\"FromDate\":\"2021-01-08\",\"ToDate\":\"2021-01-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56839,\"FromDate\":\"2021-01-11\",\"ToDate\":\"2021-01-12\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":1.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56906,\"FromDate\":\"2021-01-15\",\"ToDate\":\"2021-01-15\",\"LeaveType\":\"LWP\",\"Days\":2.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":56926,\"FromDate\":\"2021-01-18\",\"ToDate\":\"2021-02-03\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":13.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":57499,\"FromDate\":\"2021-02-09\",\"ToDate\":\"2021-02-09\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57500,\"FromDate\":\"2021-02-15\",\"ToDate\":\"2021-02-15\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":57747,\"FromDate\":\"2021-02-25\",\"ToDate\":\"2021-02-26\",\"LeaveType\":\"Privilege Leave (PL)\",\"Days\":2.00,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58793,\"FromDate\":\"2021-04-02\",\"ToDate\":\"2021-04-02\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":58792,\"FromDate\":\"2021-04-07\",\"ToDate\":\"2021-04-07\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":1.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":58794,\"FromDate\":\"2021-04-08\",\"ToDate\":\"2021-04-08\",\"LeaveType\":\"Casual Leave (CL)\",\"Days\":0.50,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":58646,\"FromDate\":\"2021-04-09\",\"ToDate\":\"2021-04-09\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"},{\"LeaveRequestID\":58723,\"FromDate\":\"2021-04-12\",\"ToDate\":\"2021-04-15\",\"LeaveType\":\"Sick Leave (SL)\",\"Days\":4.00,\"LeaveStatus\":\"Applied\"},{\"LeaveRequestID\":58756,\"FromDate\":\"2021-04-16\",\"ToDate\":\"2021-04-16\",\"LeaveType\":\"LWP\",\"Days\":0.50,\"LeaveStatus\":\"Approved\"}]",
+      "TotalDeskTime": "507:30",
+      "TotalProductiveTime": "340:43"
+    },
+    {
+      "EmpCode": "2394",
+      "EmployeeName": "Ajay  Hargovind  Israni",
+      "JoinDate": "2022-01-31T00:00:00",
+      "LeaveDays": null,
+      "PresentDays": 10.00,
+      "TotalWorkingDays": 10.00,
+      "LeaveDetails": null,
+      "TotalDeskTime": "29:17",
+      "TotalProductiveTime": "26:15"
+    }
+  ]

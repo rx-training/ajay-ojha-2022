@@ -14,10 +14,19 @@ router.get("/",async (req,res)=>{
 
   
  var productModel=new  ProductModel(req.body);
+
  var result=await productModel.save();
+ 
 res.end();
  //res.status(200).send("record inserted");
 
+})
+
+router.put("/:id",async(req,res)=>{
+  var id= req.params["id"]
+ var data=await productModel.findById(id);
+ data.Feedback.push(req.body);
+ data.save();
 })
 
 module.exports=router;
