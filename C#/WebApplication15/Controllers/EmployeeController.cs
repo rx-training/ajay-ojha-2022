@@ -17,9 +17,11 @@ namespace WebApplication15.Controllers
     {
 
         private DataHelper DataHelper { get; set; }
-        public EmployeeController()
+        private IEmployeeService EmployeeService { get; set; }
+        public EmployeeController(IEmployeeService employeeService, IDepartmentService departmentService )
         {
             DataHelper = new DataHelper();
+            EmployeeService = employeeService;
         }
 
         [HttpGet]
@@ -34,7 +36,7 @@ namespace WebApplication15.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Employee employee)
+        public IActionResult Post([FromBody] Employee employee)
         {
 
             var arr = new List<string>();
@@ -45,13 +47,13 @@ namespace WebApplication15.Controllers
             if (arr.Count > 0)
                 return BadRequest(arr);
             else
-                return Ok(await DataHelper.AddEmployee(employee));
+                return Ok(EmployeeService.Add(employee));
         }
 
         [HttpPatch("{id}")]
-        public async Task<IActionResult> Patch(int id,[FromBody] JsonPatchDocument<Employee> patchEmployee)
+        public async Task<IActionResult> Patch(int id, [FromBody] JsonPatchDocument<Employee> patchEmployee)
         {
-            var employee =await DataHelper.Get(id);
+            var employee = await DataHelper.Get(id);
             patchEmployee.ApplyTo(employee);
             return Ok(await DataHelper.UpdateEmployee(employee));
         }
