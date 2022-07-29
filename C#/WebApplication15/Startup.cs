@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -45,11 +46,29 @@ namespace WebApplication15
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UserDemoMiidleware();
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseExceptionHandler(options =>
+            {
+                options.Run(
+                   async context =>
+                {
+                    var exceptionFeature = context.Features.Get<IExceptionHandlerFeature>();
+                    var employeeService = context.RequestServices.GetService<IEmployeeService>();         
+                    var exeption = exceptionFeature.Error;
+
+                    /*
+                     * Write logic to insert exeception in database
+                     */
+
+                   
+                });
+            });
 
             app.UseEndpoints(endpoints =>
             {

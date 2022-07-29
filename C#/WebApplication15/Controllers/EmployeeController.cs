@@ -13,6 +13,7 @@ namespace WebApplication15.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+  
     public class EmployeeController : ControllerBase
     {
 
@@ -25,6 +26,7 @@ namespace WebApplication15.Controllers
         }
 
         [HttpGet]
+        [RequestActionFilter(RequiredRole="Admin")]
         public async Task<IActionResult> Get()
         {
             return Ok(await DataHelper.GetEmployees());
